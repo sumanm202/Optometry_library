@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/black">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginBottom="150dp"
+        android:contentDescription="todo1"
+        android:src="@drawable/app_logo" />
+
+
+    <EditText
+        android:id="@+id/phNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:autofillHints=""
+        android:textColor="@color/black"
+        android:background="@drawable/rounded_textview_bg"
+        android:gravity="center"
+        android:minHeight="48dp"
+        android:textColorHint="#757575"
+        tools:ignore="VisualLintTextFieldSize,TextContrastCheck"
+        android:hint="+919876543210"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/Otpbtn"
+        tools:ignore="VisualLintButtonSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:text="Send OTP" />
+
+    <EditText
+        android:id="@+id/otp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="20dp"
+        android:autofillHints=""
+        android:background="@drawable/rounded_textview_bg"
+        android:gravity="center"
+        android:hint="Enter OTP"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColor="@color/black"
+        android:textColorHint="#757575"
+        android:visibility="gone"
+        tools:ignore="VisualLintTextFieldSize,TextContrastCheck" />
+
+    <Button
+        android:id="@+id/verifyOtpbtn"
+        tools:ignore="VisualLintButtonSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:text="Verify OTP"
+        android:visibility="gone" />
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/contactus_nav"
+        android:icon="@drawable/contactus"
+        android:title="Contact Us"/>
+    <item
+        android:id="@+id/disclaimer_nav"
+        android:icon="@drawable/disclamer"
+        android:title="Disclaimer"/>
+    <item
+        android:id="@+id/t_and_c_nav"
+        android:icon="@drawable/termandcondition"
+        android:title="terms and condition"/>
+    <item
+        android:id="@+id/signout_nav"
+        android:icon="@drawable/logout"
+        android:title="LogOut"/>
+</menu>

@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "682692995995",
+    "firebase_url": "https://optometry-library-15c35.firebaseio.com",
+    "project_id": "optometry-library-15c35",
+    "storage_bucket": "optometry-library-15c35.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:682692995995:android:96d2f6dce1cfdb2238cf3e",
+        "android_client_info": {
+          "package_name": "com.Optometry.Library"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "682692995995-3if3o7egcatuf0op7nu46hlsg31oroj9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.Optometry.Library",
+            "certificate_hash": "146eed6348607cf2d6def42ff92324a128f1fdde"
+          }
+        },
+        {
+          "client_id": "682692995995-8umdjpjkou1aqjh0m12v9dvrtq6q8uq6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaKG60Z7_Nha_87IxQjtt7ss7YiSLbj_o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "682692995995-8umdjpjkou1aqjh0m12v9dvrtq6q8uq6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-5368219812799091~7115305245"
+    }
+  ],
+  "configuration_version": "1"
+}
