@@ -3,6 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    
+    <!-- Query for speech recognition services -->
+    <queries>
+        <intent>
+            <action android:name="android.speech.RecognitionService" />
+        </intent>
+    </queries>
 
     <application
         android:allowBackup="true"
@@ -14,37 +22,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Bookify"
         android:usesCleartextTraffic="true"
+        android:networkSecurityConfig="@xml/network_security_config"
         tools:targetApi="31">
         <activity
-            android:name=".CategoryActivity"
-            android:exported="false" />
-        <activity
-            android:name=".PdfActivity"
-            android:exported="false" />
-        <activity
-            android:name=".DetailsActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="false" />
-        <activity
-            android:name=".phLoginAvtivity"
-            android:exported="false"
-            android:theme="@style/Theme.Material3.DayNight.NoActionBar" />
-        <activity
-            android:name=".PasswordResetActivity"
-            android:exported="false"
-            android:theme="@style/Theme.Material3.DayNight.NoActionBar" />
-        <activity
-            android:name=".Activity_Signup"
-            android:exported="false"
-            android:theme="@style/Theme.Material3.DayNight.NoActionBar" />
-        <activity
-            android:name=".Activity_login_sign_up"
-            android:exported="false"
-            android:theme="@style/Theme.Material3.DayNight.NoActionBar" />
-        <activity
-            android:name=".welcomeActivity"
+            android:name=".MainComposeActivity"
             android:exported="true"
             android:theme="@style/Theme.Material3.DayNight.NoActionBar">
             <intent-filter>

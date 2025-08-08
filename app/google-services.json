@@ -15,11 +15,19 @@
       },
       "oauth_client": [
         {
-          "client_id": "682692995995-3if3o7egcatuf0op7nu46hlsg31oroj9.apps.googleusercontent.com",
+          "client_id": "682692995995-7fidtlb084kutufrqqq83vahsl26g9jc.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.Optometry.Library",
-            "certificate_hash": "146eed6348607cf2d6def42ff92324a128f1fdde"
+            "certificate_hash": "2b19caf891df096d87329880d266962325faa445"
+          }
+        },
+        {
+          "client_id": "682692995995-vfhn7mdnn9ftioni3slpuqrl40a4r4vs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.Optometry.Library",
+            "certificate_hash": "939571020b104fc36485b69751f7eda7120f15ff"
           }
         },
         {

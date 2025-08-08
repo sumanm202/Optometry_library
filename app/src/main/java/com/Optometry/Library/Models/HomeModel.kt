@@ -1,7 +1,7 @@
 package com.Optometry.Library.Models
 
-import com.Optometry.Library.Adapters.LAYOUT_HOME
-
+// Constants for layout types (moved from deleted Adapters)
+const val LAYOUT_HOME = 1
 
 data class HomeModel(
     val catTitle:String?=null,
